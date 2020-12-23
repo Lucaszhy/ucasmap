@@ -89,14 +89,17 @@
                      <h2>数据来源</h2>
                   </div>
                   <div class="full">
-                     <p class="large">数据1来自...</p>
-                     <p class="large">数据2来自...</p>
+                     <p class="large">贫困县数据来自国务院扶贫开发领导小组办公室</p>
+                     <p class="large">经纬度数据来自国家地理信息公共服务平台“天地图”</p>
                   </div>
                   <div class="full heading_s1">
                      <h2>制图流程</h2>
                   </div>
                   <div class="full">
-                     <p class="large">该地图采用...平台，...制作</p>
+                     <p class="large">1.统计贫困县名称及其所在省份，使用python网络爬虫模拟浏览器，调取天地图API获得贫困县的经纬度坐标</p>
+                     <p class="large">2.使用python网络爬虫模拟浏览器，调取天地图地理编码API，获得贫困县的经纬度坐标</p>
+                     <p class="large">3.在高德开放平台上展示数据</p>
+                     <img class="img-responsive" src="images/process.png" alt="#" />
                   </div>
                </div>
             </div>
@@ -140,14 +143,13 @@
 
                <div class="col-md-4 col-sm-12">
                   <div class="footer_link_heading">
-                     <h3>数据来源</h3>
+                     <h3>数据和平台</h3>
                   </div>
                   <div class="footer_menu">
                     <ul>
-                       <li><a href="#">数据1</a></li>
-                       <li><a href="#">数据2</a></li>
-                       <li><a href="#">数据3</a></li>
-                       <li><a href="#">数据4</a></li>
+                     <li><a href="http://www.cpad.gov.cn/">国务院扶贫开发领导小组办公室</a></li>
+                     <li><a href="https://www.tianditu.gov.cn/">天地图</a></li>
+                     <li><a href="https://lbs.amap.com/">高德开放平台</a></li>
                     </ul>
                   </div>
                </div>
